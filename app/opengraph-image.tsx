@@ -22,27 +22,25 @@ export default async function OG() {
           justifyContent: "center",
           backgroundColor: "white",
           backgroundImage:
-            "linear-gradient(to bottom right, #E0E7FF 25%, #ffffff 50%, #CFFAFE 75%)",
+            "linear-gradient(to bottom right, #E0E7FF 25%, #fde047 75%)",
         }}
       >
         <img
-          src={new URL("../public/logo.png", import.meta.url).toString()}
-          alt="Precedent Logo"
+          src={new URL("../app/favicon.ico", import.meta.url).toString()}
+          alt="BeatBotanica Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
           style={{
             fontSize: "100px",
             fontFamily: "SF Pro",
-            background:
-              "linear-gradient(to bottom right, #000000 21.66%, #78716c 86.47%)",
             backgroundClip: "text",
-            color: "transparent",
+            color: "#000",
             lineHeight: "5rem",
             letterSpacing: "-0.02em",
           }}
         >
-          Precedent
+          BeatBotanica
         </h1>
       </div>
     ),

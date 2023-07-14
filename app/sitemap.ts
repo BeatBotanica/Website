@@ -11,11 +11,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: "https://precedent.dev",
+      url: process.env.NEXTAUTH_URL as string,
       lastModified: new Date(),
     },
     ...users.map((user) => ({
-      url: `https://precedent.dev/${user.id}`,
+      url: `${process.env.NEXTAUTH_URL as string}/${user.id}`,
       lastModified: new Date(),
     })),
   ];
