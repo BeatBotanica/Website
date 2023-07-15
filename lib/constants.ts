@@ -1,1 +1,1 @@
-export const SAMPLIFY_URL = `https://www.samplify.beatbotanica.com`;
+export const RANGI_URL = `https://rangi.beatbotanica.com`;

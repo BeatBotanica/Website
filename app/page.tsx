@@ -1,5 +1,5 @@
 import Balancer from "react-wrap-balancer";
-import { SAMPLIFY_URL } from "@/lib/constants";
+import { RANGI_URL } from "@/lib/constants";
 
 export default async function Home() {
   return (
@@ -23,9 +23,9 @@ export default async function Home() {
         >
           <a
             className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
-            href={SAMPLIFY_URL}
+            href={RANGI_URL}
           >
-            <p>Visit Samplify</p>
+            <p>Explore with Rangi</p>
           </a>
         </div>
       </div>
