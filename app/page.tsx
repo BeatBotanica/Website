@@ -13,15 +13,15 @@ export default function Home() {
     const bird = birdRef.current;
     if (bird) {
       bird.style.animation =
-        "fly-cycle 1s steps(10) infinite, fly-right-one 15s linear";
+        "fly-cycle 1s steps(10) infinite, fly-right-one 5s linear";
       bird.style.backgroundPosition = "right";
       bird.style.animationFillMode = "forwards";
-      // The bird will stop animating after 15 seconds
+      // The bird will stop animating after 5 seconds
       setTimeout(() => {
         if (bird) {
           setShowRestingBird(true);
         }
-      }, 100000);
+      }, 5000);
     }
   }, []);
 
@@ -54,7 +54,7 @@ export default function Home() {
                   "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg')",
                 backgroundSize: "880px auto",
                 backgroundPosition: "528px 0px", // Position for resting frame
-                transform: "translateY(0vh) translateX(0vw) scale(1.5)",
+                transform: "translateY(6vh) translateX(50vw) scale(1.5)",
                 animation: "none",
               }}
             />
