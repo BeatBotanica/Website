@@ -54,7 +54,7 @@ export default function Home() {
                   "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg')",
                 backgroundSize: "880px auto",
                 backgroundPosition: "528px 0px", // Position for resting frame
-                transform: "translateY(6vh) translateX(50vw) scale(1.5)",
+                transform: "translateY(5vh) translateX(43.5vw) scale(1.5)",
                 animation: "none",
               }}
             />

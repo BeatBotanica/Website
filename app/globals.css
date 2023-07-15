@@ -19,30 +19,30 @@
     transform: translateY(0vh) translateX(0vw) scale(1.5);
   }
   20% {
-    transform: translateY(2vh) translateX(10vw) scale(1.5);
+    transform: translateY(1vh) translateX(5vw) scale(1.5);
   }
   30% {
-    transform: translateY(4vh) translateX(20vw) scale(1.5);
+    transform: translateY(2vh) translateX(10vw) scale(1.5);
   }
   40% {
-    transform: translateY(2vh) translateX(30vw) scale(1.5);
+    transform: translateY(2vh) translateX(15vw) scale(1.5);
   }
   50% {
-    transform: translateY(0vh) translateX(35vw) scale(1.5);
+    transform: translateY(2vh) translateX(20vw) scale(1.5);
   }
   60% {
-    transform: translateY(2vh) translateX(40vw) scale(1.5);
+    transform: translateY(3vh) translateX(25vw) scale(1.5);
   }
   70% {
-    transform: translateY(4vh) translateX(45vw) scale(1.5);
+    transform: translateY(4vh) translateX(30vw) scale(1.5);
   }
   80% {
-    transform: translateY(6vh) translateX(50vw) scale(1.5);
+    transform: translateY(5vh) translateX(35vw) scale(1.5);
   }
   90% {
-    transform: translateY(6vh) translateX(50vw) scale(1.5);
+    transform: translateY(5vh) translateX(40vw) scale(1.5);
   }
   100% {
-    transform: translateY(6vh) translateX(50vw) scale(1.5);
+    transform: translateY(5vh) translateX(43.5vw) scale(1.5);
   }
 }
