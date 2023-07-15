@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes fly-cycle {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 890px 0;
+  }
+}
+
+@keyframes fly-right-one {
+  0% {
+    transform: scale(1.5) translateX(-10vw);
+  }
+  10% {
+    transform: translateY(0vh) translateX(0vw) scale(1.5);
+  }
+  20% {
+    transform: translateY(2vh) translateX(10vw) scale(1.5);
+  }
+  30% {
+    transform: translateY(4vh) translateX(20vw) scale(1.5);
+  }
+  40% {
+    transform: translateY(2vh) translateX(30vw) scale(1.5);
+  }
+  50% {
+    transform: translateY(0vh) translateX(32.5vw) scale(1.5);
+  }
+  60% {
+    transform: translateY(2vh) translateX(35vw) scale(1.5);
+  }
+  70% {
+    transform: translateY(4vh) translateX(37.5vw) scale(1.5);
+  }
+  80% {
+    transform: translateY(5vh) translateX(40vw) scale(1.5);
+  }
+  90% {
+    transform: translateY(6vh) translateX(42.5vw) scale(1.5);
+  }
+  100% {
+    transform: translateY(6vh) translateX(45vw) scale(1.5);
+  }
+}
