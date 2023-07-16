@@ -1,5 +1,6 @@
 import Balancer from "react-wrap-balancer";
 import { RANGI_URL } from "@/lib/constants";
+import Image from "next/image";
 
 export default async function Home() {
   return (
@@ -22,10 +23,32 @@ export default async function Home() {
           style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
         >
           <a
-            className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
+            className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-white bg-white px-5 py-2 text-sm text-black invert transition-colors hover:shadow-md hover:invert-0"
             href={RANGI_URL}
           >
+            <Image
+              src="/bird.png"
+              className="invert-0"
+              width={20}
+              height={20}
+              alt={"Bird logo"}
+            />
             <p>Explore with Rangi</p>
+          </a>
+          <a
+            className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-white bg-white px-5 py-2 text-sm text-black invert transition-colors hover:shadow-md hover:invert-0"
+            href={
+              "https://discord.com/api/oauth2/authorize?client_id=1129971995799465995&permissions=18496&scope=bot"
+            }
+          >
+            <Image
+              src="/discord.png"
+              className="invert-0"
+              width={20}
+              height={20}
+              alt={"Discord logo"}
+            />
+            <p>Get the Discord Bot</p>
           </a>
         </div>
       </div>
