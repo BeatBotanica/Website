@@ -19,7 +19,7 @@ export default async function Home() {
           <Balancer>Exploring music, beats, and samples.</Balancer>
         </p>
         <div
-          className="mx-auto mt-6 flex animate-fade-up items-center justify-center space-x-5 opacity-0"
+          className="mx-auto mt-8 flex animate-fade-up items-center justify-center lg:space-x-5 md:space-x-5 sm:space-y-5 max-sm:space-y-5 lg:space-y-0  md:space-y-0 opacity-0 lg:flex-row md:flex-row sm:flex-col max-sm:flex-col"
           style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
         >
           <a
